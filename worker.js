@@ -62,4 +62,3 @@ userQueue.process(async (job, done) => {
     done(new Error('User not found'));
   }
 });
-
